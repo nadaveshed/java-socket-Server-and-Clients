@@ -29,7 +29,7 @@ $ ./server
 Listening on 127.0.0.1:8080
 $ ./client 127.0.0.1 8080
 
-Part 1 - Infrastructure
+# Part 1 - Infrastructure
 Implement the basic server and client.
 Server
 The server receives its port and ip address as runtime arguments. It should wait for incoming
@@ -50,7 +50,7 @@ $ Received "4" from client [1]
 $ client 127.0.0.1 8080
 $ Received "4" from server
 
-Part 2 - Sum
+# Part 2 - Sum
 Server
 Server should aggregate the sum of the messages and reply it to the client
 Client
@@ -66,7 +66,7 @@ $ client 127.0.0.1 8080
 $ Received "sum is 4" from server
 $ Received "sum is 9" from server
 
-Part 3 - Multiple clients support
+# Part 3 - Multiple clients support
 Server
 Support multiple clients concurrently. The server should be able to handle multiple
 messages received from multiple clients at the same time.
